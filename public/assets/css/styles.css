@@ -20,17 +20,20 @@ html, body {
   width: 100%;
   outline: none;
   border: none;
+  margin-top: 15px;
+  
 }
 
 .note-textarea {
   resize: none;
   height: calc(100% - 63px);
   padding-top: 15px;
+  
 }
 
 .note-title {
   height: 50px;
-  margin-top: 13px;
+  margin-top: 30px;
   font-size: 3rem;
 }
 
