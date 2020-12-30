@@ -46,10 +46,12 @@ html, body {
   border-bottom: none;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+  
 }
 
 .list-container {
   padding-left: 0;
+  margin-top: 10px;
 }
 
 .list-container .list-group,
