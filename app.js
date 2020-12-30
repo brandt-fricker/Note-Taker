@@ -59,9 +59,9 @@ res.json(deleteNote)
 
 
 // GET handle index.js requests
-app.get('/assets/js/index.js', (req, res) => {
-  res.sendFile(path.join(__dirname+'/public/assets/js/index.js'));
-});
+// app.get('/assets/js/index.js', (req, res) => {
+//   res.sendFile(path.join(__dirname+'/public/assets/js/index.js'));
+// });
 
 
 // GET `*` - Should return the `index.html` file
