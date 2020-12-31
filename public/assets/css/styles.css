@@ -68,3 +68,11 @@ html, body {
   padding: 20px;
   cursor: pointer;
 }
+ul {
+  list-style: none;
+}
+ul li::before {
+  content: "\01F449	";
+  display: inline-block;
+  margin-right: 0.2rem;
+}
