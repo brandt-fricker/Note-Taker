@@ -11,6 +11,7 @@ app.use(
   })
 );
 app.use(express.static(__dirname + '/public'));
+app.use(express.json());
 
 var data = JSON.parse(fs.readFileSync("./db/db.json"));
 
